@@ -2,6 +2,12 @@
 
 [Bark](https://github.com/Finb/bark) backend for ntfy.
 
+## Installation
+
+``` cmd
+pip install ntfy-bark
+```
+
 ## Usage
 
 Add following lines to your `ntfy.yml`:

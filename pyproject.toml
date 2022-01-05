@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "ntfy-bark"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bark backend for ntfy"
 authors = ["Cologler <skyoflw@gmail.com>"]
 license = "MIT"
+homepage = "https://github.com/Cologler/ntfy-bark-python"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
