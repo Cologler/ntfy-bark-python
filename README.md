@@ -1,2 +1,14 @@
-# ntfy-bark-python
- Bark backend for ntfy.
+# ntfy-bark
+
+[Bark](https://github.com/Finb/bark) backend for ntfy.
+
+## Usage
+
+Add following lines to your `ntfy.yml`:
+
+``` yaml
+ntfy_bark:
+    push_url: https://api.day.app/...
+```
+
+Finally, send message to your devices with `ntfy -b ntfy_bark send MSG`.
